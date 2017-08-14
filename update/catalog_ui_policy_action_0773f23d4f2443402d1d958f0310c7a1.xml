@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="TPG DevOps Request">523ce2394f2443402d1d958f0310c7c9</catalog_item>
+        <catalog_variable>IO:11ce6a794f2443402d1d958f0310c775</catalog_variable>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-13 22:19:13</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>0773f23d4f2443402d1d958f0310c7a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cmdb_ci</sys_name>
+        <sys_package display_value="TPG Dev Request" source="x_snc_tpg_dev_requ">60ae3ed04f648f002d1d958f0310c759</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TPG Dev Request">60ae3ed04f648f002d1d958f0310c759</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_0773f23d4f2443402d1d958f0310c7a1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-13 22:19:13</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Show Application only if request type is &quot;Development Request&quot;">1903fef94f2443402d1d958f0310c741</ui_policy>
+        <variable>cmdb_ci</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="Playbook Task" max_length="40" name="x_snc_tpg_dev_requ_playbook_task" sizeclass="6" type="collection"/>
+</database>

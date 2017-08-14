@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="TPG - Dynamic Request System">a8aef2144f648f002d1d958f0310c7f1</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter table="sysapproval_approver">source_table=x_snc_tpg_dev_requ_request^state!=not_required^EQ<item endquery="false" field="source_table" goto="false" newquery="false" operator="=" or="false" value="x_snc_tpg_dev_requ_request"/>
+            <item endquery="false" field="state" goto="false" newquery="false" operator="!=" or="false" value="not_required"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Approvals</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>sysapproval_approver</name>
+        <order>200</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_snc_tpg_dev_requ.user</roles>
+        <survey/>
+        <survey_overwrite>true</survey_overwrite>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-11 13:32:02</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fcbb56014f2ccf002d1d958f0310c7bc</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Approvals</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="TPG Dev Request" source="x_snc_tpg_dev_requ">60ae3ed04f648f002d1d958f0310c759</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TPG Dev Request">60ae3ed04f648f002d1d958f0310c759</sys_scope>
+        <sys_update_name>sys_app_module_fcbb56014f2ccf002d1d958f0310c7bc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-14 13:17:23</sys_updated_on>
+        <timeline_page/>
+        <title>Approvals</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

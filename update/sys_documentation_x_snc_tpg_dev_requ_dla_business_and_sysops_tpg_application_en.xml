@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="tpg_application" label="TPG application" language="en" table="x_snc_tpg_dev_requ_dla_business_and_sysops">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>tpg_application</element>
+            <help/>
+            <hint/>
+            <label>TPG application</label>
+            <language>en</language>
+            <name>x_snc_tpg_dev_requ_dla_business_and_sysops</name>
+            <plural>TPG applications</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-14 11:55:33</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>eb6ea98a4fa843402d1d958f0310c7fe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>TPG application</sys_name>
+            <sys_package display_value="TPG Dev Request" source="x_snc_tpg_dev_requ">60ae3ed04f648f002d1d958f0310c759</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="TPG Dev Request">60ae3ed04f648f002d1d958f0310c759</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_tpg_dev_requ_dla_business_and_sysops_tpg_application_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-14 11:55:33</sys_updated_on>
+            <u_translation_log_id/>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

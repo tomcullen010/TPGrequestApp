@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="system_operations_group" label="System Operations Group" language="en" table="x_snc_tpg_dev_requ_request">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>system_operations_group</element>
+            <help/>
+            <hint/>
+            <label>System Operations Group</label>
+            <language>en</language>
+            <name>x_snc_tpg_dev_requ_request</name>
+            <plural>System Operations Groups</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-13 13:39:03</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>358cf43d4f2043402d1d958f0310c7a8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>System Operations Group</sys_name>
+            <sys_package display_value="TPG Dev Request" source="x_snc_tpg_dev_requ">60ae3ed04f648f002d1d958f0310c759</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="TPG Dev Request">60ae3ed04f648f002d1d958f0310c759</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_tpg_dev_requ_request_system_operations_group_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-13 13:39:03</sys_updated_on>
+            <u_translation_log_id/>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

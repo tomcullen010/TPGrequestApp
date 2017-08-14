@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>sysverb_update_and_stay</action_name>
+        <active>true</active>
+        <client>false</client>
+        <comments/>
+        <condition>current.state==-5</condition>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_style/>
+        <hint/>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <name>Start Task</name>
+        <onclick/>
+        <order>100</order>
+        <script><![CDATA[action.setRedirectURL(current);
+var gd = new GlideDate();
+current.work_start = gd.getDisplayValue();
+current.state = 2;
+current.update();]]></script>
+        <show_insert>false</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-13 15:57:51</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cabbd17d4f6043402d1d958f0310c735</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Start Task</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="TPG Dev Request" source="x_snc_tpg_dev_requ">60ae3ed04f648f002d1d958f0310c759</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TPG Dev Request">60ae3ed04f648f002d1d958f0310c759</sys_scope>
+        <sys_update_name>sys_ui_action_cabbd17d4f6043402d1d958f0310c735</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-14 15:48:55</sys_updated_on>
+        <table>x_snc_tpg_dev_requ_playbook_task</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

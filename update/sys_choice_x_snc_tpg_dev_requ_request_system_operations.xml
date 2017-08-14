@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="system_operations" table="x_snc_tpg_dev_requ_request" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>system_operations</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>DevOps-CODA</label>
+            <language>en</language>
+            <name>x_snc_tpg_dev_requ_request</name>
+            <sequence>10</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-11 11:59:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2152d2c94fe8cf002d1d958f0310c764</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-11 11:59:16</sys_updated_on>
+            <u_translation_log_id/>
+            <value>CODA</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>system_operations</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>DevOps-Investran</label>
+            <language>en</language>
+            <name>x_snc_tpg_dev_requ_request</name>
+            <sequence>20</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-11 11:59:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>57a2d2c94fe8cf002d1d958f0310c715</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-11 11:59:59</sys_updated_on>
+            <u_translation_log_id/>
+            <value>Investran</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>system_operations</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>DevOps-AX</label>
+            <language>en</language>
+            <name>x_snc_tpg_dev_requ_request</name>
+            <sequence>30</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-11 12:00:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0452d2c94fe8cf002d1d958f0310c70f</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-11 12:00:29</sys_updated_on>
+            <u_translation_log_id/>
+            <value>AX</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>system_operations</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>DevOps-CompMatrix</label>
+            <language>en</language>
+            <name>x_snc_tpg_dev_requ_request</name>
+            <sequence>40</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-11 12:00:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>17b256c94fe8cf002d1d958f0310c7c6</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-11 12:00:51</sys_updated_on>
+            <u_translation_log_id/>
+            <value>CompMatrix</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>system_operations</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>DevOps-Concur</label>
+            <language>en</language>
+            <name>x_snc_tpg_dev_requ_request</name>
+            <sequence>50</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-11 12:00:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ebc256c94fe8cf002d1d958f0310c7cd</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-11 12:01:11</sys_updated_on>
+            <u_translation_log_id/>
+            <value>Concur</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>system_operations</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>DevOps-ServiceNow</label>
+            <language>en</language>
+            <name>x_snc_tpg_dev_requ_request</name>
+            <sequence>60</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-11 12:01:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>19e2d6c94fe8cf002d1d958f0310c753</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-11 12:01:32</sys_updated_on>
+            <u_translation_log_id/>
+            <value>ServiceNow</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>system_operations</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>DevOps-GTreasury</label>
+            <language>en</language>
+            <name>x_snc_tpg_dev_requ_request</name>
+            <sequence>70</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-11 12:01:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8ef2d6c94fe8cf002d1d958f0310c75b</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-11 12:02:01</sys_updated_on>
+            <u_translation_log_id/>
+            <value>GTresury</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>system_operations</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>DevOps-Tagetik</label>
+            <language>en</language>
+            <name>x_snc_tpg_dev_requ_request</name>
+            <sequence>80</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-11 12:02:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fb031ac94fe8cf002d1d958f0310c790</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-11 12:02:29</sys_updated_on>
+            <u_translation_log_id/>
+            <value>Tagetik</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>system_operations</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>DevOps-Legal/Compliance</label>
+            <language>en</language>
+            <name>x_snc_tpg_dev_requ_request</name>
+            <sequence>90</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-11 12:02:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5f239ac94fe8cf002d1d958f0310c729</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-11 12:03:05</sys_updated_on>
+            <u_translation_log_id/>
+            <value>Legal/Compliance</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>system_operations</element>
+            <name>x_snc_tpg_dev_requ_request</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-11 11:59:16</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>f08212c94fe8cf002d1d958f0310c7ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>system_operations</sys_name>
+            <sys_package display_value="TPG Dev Request" source="x_snc_tpg_dev_requ">60ae3ed04f648f002d1d958f0310c759</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="TPG Dev Request">60ae3ed04f648f002d1d958f0310c759</sys_scope>
+            <sys_update_name>sys_choice_x_snc_tpg_dev_requ_request_system_operations</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-11 11:59:16</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

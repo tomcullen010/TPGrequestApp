@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="update_synch=true" extends="dl_matcher" label="DLA Business and SysOps" max_length="40" name="x_snc_tpg_dev_requ_dla_business_and_sysops" type="collection">
+        <element active="false" label="Business Approvals Group" max_length="32" name="business_approvals_group" reference="sys_user_group" reference_qual="nameSTARTSWITHTPG^nameNOT LIKEDevOps^EQ" reference_qual_condition="nameSTARTSWITHTPG^nameNOT LIKEDevOps^EQ" type="reference"/>
+        <element choice="1" label="Request Type" max_length="40" name="request_type" type="choice">
+            <choice>
+                <element label="Development request" sequence="10" value="development_request"/>
+                <element label="Set Up Master Data" sequence="20" value="master_data"/>
+            </choice>
+        </element>
+        <element label="System Operations Group" max_length="32" name="system_operations_group" reference="sys_user_group" reference_qual="nameSTARTSWITHTPG DevOps^EQ" reference_qual_condition="nameSTARTSWITHTPG DevOps^EQ" type="reference"/>
+        <element label="TPG application" max_length="32" name="tpg_application" reference="x_snc_tpg_dev_requ_tpg_applications" type="reference"/>
+        <index name="index">
+            <element name="tpg_application"/>
+        </index>
+        <index name="index2">
+            <element name="business_approvals_group"/>
+        </index>
+        <index name="index3">
+            <element name="system_operations_group"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="x_snc_tpg_dev_requ_dla_business_and_sysops">
+    <x_snc_tpg_dev_requ_dla_business_and_sysops action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_approvals_group display_value="TPG Fund Services" name="TPG Fund Services">13465b144fa48f002d1d958f0310c769</business_approvals_group>
+        <order>100</order>
+        <request_type>development_request</request_type>
+        <sys_class_name>x_snc_tpg_dev_requ_dla_business_and_sysops</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-14 12:09:15</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>fe41b50e4fa843402d1d958f0310c790</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>100</sys_name>
+        <sys_package display_value="TPG Dev Request" source="x_snc_tpg_dev_requ">60ae3ed04f648f002d1d958f0310c759</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="TPG Dev Request">60ae3ed04f648f002d1d958f0310c759</sys_scope>
+        <sys_update_name>x_snc_tpg_dev_requ_dla_business_and_sysops_fe41b50e4fa843402d1d958f0310c790</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-14 12:09:15</sys_updated_on>
+        <system_operations_group display_value="TPG DevOps-Investran" name="TPG DevOps-Investran">13c5124d4fe8cf002d1d958f0310c7ef</system_operations_group>
+        <tpg_application display_value="Investran">09d5c6054fe8cf002d1d958f0310c735</tpg_application>
+    </x_snc_tpg_dev_requ_dla_business_and_sysops>
+</record_update>

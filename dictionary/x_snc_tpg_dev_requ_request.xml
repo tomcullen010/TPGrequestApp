@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" extends="task" label="Request" max_length="40" name="x_snc_tpg_dev_requ_request" sizeclass="1" type="collection">
+        <element choice="1" label="Application Type" max_length="40" name="application_type" type="choice">
+            <choice>
+                <element label="CODA" sequence="10" value="CODA"/>
+                <element label="Investran" sequence="20" value="Investran"/>
+                <element label="AX" sequence="30" value="AX"/>
+                <element label="CompMatrix" sequence="40" value="CompMatrix"/>
+                <element label="Concur" sequence="50" value="Concur"/>
+                <element label="ServiceNow" sequence="60" value="ServiceNow"/>
+                <element label="GTreasury" sequence="70" value="GTreasury"/>
+                <element label="Tagetik" sequence="80" value="Tagetik"/>
+                <element label="Legal/Compliance" sequence="90" value="Legal/Compliance"/>
+            </choice>
+        </element>
+        <element label="Business approvals group" max_length="32" name="business_approvals_group" reference="sys_user_group" type="reference"/>
+        <element label="Request stage" max_length="80" name="request_stage" type="workflow"/>
+        <element choice="1" default="development_request" label="Request type" max_length="40" name="request_type" type="choice">
+            <choice>
+                <element label="Set Up Master Data" sequence="10" value="master_data"/>
+                <element label="Development request" sequence="20" value="development_request"/>
+            </choice>
+        </element>
+        <element choice="1" label="System Operations" max_length="40" name="system_operations" type="choice">
+            <choice>
+                <element label="DevOps-CODA" sequence="10" value="CODA"/>
+                <element label="DevOps-Investran" sequence="20" value="Investran"/>
+                <element label="DevOps-AX" sequence="30" value="AX"/>
+                <element label="DevOps-CompMatrix" sequence="40" value="CompMatrix"/>
+                <element label="DevOps-Concur" sequence="50" value="Concur"/>
+                <element label="DevOps-ServiceNow" sequence="60" value="ServiceNow"/>
+                <element label="DevOps-GTreasury" sequence="70" value="GTresury"/>
+                <element label="DevOps-Tagetik" sequence="80" value="Tagetik"/>
+                <element label="DevOps-Legal/Compliance" sequence="90" value="Legal/Compliance"/>
+            </choice>
+        </element>
+        <element label="System Operations Group" max_length="32" name="system_operations_group" reference="sys_user_group" type="reference"/>
+    </element>
+</database>
