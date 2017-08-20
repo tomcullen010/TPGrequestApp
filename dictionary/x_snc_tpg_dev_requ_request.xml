@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element audit="true" extends="task" label="Request" max_length="40" name="x_snc_tpg_dev_requ_request" sizeclass="1" type="collection">
+    <element audit="true" extends="task" label="Request" max_length="40" name="x_snc_tpg_dev_requ_request" sizeclass="20" type="collection">
         <element choice="1" label="Application Type" max_length="40" name="application_type" type="choice">
             <choice>
                 <element label="CODA" sequence="10" value="CODA"/>

@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="cmdb_ci_appl" label="TPG Applications" max_length="40" name="x_snc_tpg_dev_requ_tpg_applications" sizeclass="2" type="collection"/>
+    <element extends="cmdb_ci_appl" label="TPG Applications" max_length="40" name="x_snc_tpg_dev_requ_tpg_applications" sizeclass="14" type="collection"/>
 </database>
